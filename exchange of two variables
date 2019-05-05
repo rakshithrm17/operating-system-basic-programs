@@ -1,0 +1,9 @@
+echo "enter the first number"
+read a
+echo "enter the second number"
+read b
+echo "before exchange = value of a is $a,value of b is $b"
+c = $a
+a = $b
+b = $c
+echo "after exchange = value of a,value of b is $b"
