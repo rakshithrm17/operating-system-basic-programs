@@ -1,0 +1,21 @@
+echo "enter the marks of 3 subjects"
+read m1 m2 m3
+if ($m1 -lt 35 -0 $m2 -lt 35 -0 $m3 -lt 35)
+then
+echo "fail"
+exit
+fi
+s = $(($m1+$m2+$m3))
+a = $(($ s/3))
+echo "total is $s"
+echo "average is $a"
+if [$a -ge 60]
+then
+echo "first class"
+elif[$a -ge 50]
+then
+echo "second class"
+elif[$a -ge 35]
+then
+echo "pass"
+fi
